@@ -14,11 +14,11 @@ from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, 
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import inch
 from reportlab.lib import colors
-import tensorflow as tf
-from tensorflow.keras.applications import VGG16
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Flatten
-from tensorflow.keras.preprocessing import image as tf_image
+# import tensorflow as tf
+# from tensorflow.keras.applications import VGG16
+# from tensorflow.keras.models import Sequential
+# from tensorflow.keras.layers import Dense, Flatten
+# from tensorflow.keras.preprocessing import image as tf_image
 
 # Set up logging to track errors and events
 logging.basicConfig(filename='colpovision.log', level=logging.INFO, 
