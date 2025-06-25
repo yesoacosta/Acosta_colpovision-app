@@ -18,7 +18,7 @@ import tensorflow as tf
 from tensorflow.keras.applications import VGG16
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Flatten
-from tensorflow.keras.preprocessing.image as tf_image
+from tensorflow.keras.preprocessing import image as tf_image
 
 # Set up logging to track errors and events
 logging.basicConfig(filename='colpovision.log', level=logging.INFO, 
