@@ -1,1 +1,7 @@
 streamlit
+pandas
+numpy
+Pillow
+scipy
+reportlab
+tensorflow
