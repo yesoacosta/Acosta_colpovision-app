@@ -1,7 +1,6 @@
-streamlit
-pandas
-numpy
-Pillow
-scipy
-reportlab
-tensorflow
+streamlit==1.46.0
+pandas==2.2.3
+numpy==1.26.4
+Pillow==10.4.0
+scipy==1.14.1
+reportlab==4.2.5
