@@ -7,3 +7,6 @@ scipy==1.14.1
 reportlab==4.2.5
 tensorflow==2.15.0
 opencv-python-headless==4.11.0.86
+git add requirements.txt runtime.txt
+git commit -m "Fix TensorFlow compatibility with Python 3.10"
+git push origin main
