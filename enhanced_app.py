@@ -6,6 +6,7 @@ import os
 import logging
 import sqlite3
 import tensorflow as tf
+model = tf.keras.models.load_model('colpo_model.h5')
 import numpy as np
 from PIL import ImageEnhance
 import streamlit as st
